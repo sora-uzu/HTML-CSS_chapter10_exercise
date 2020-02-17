@@ -48,14 +48,15 @@ main{
 
 
 @media screen and (max-width:768px) {
+  .blog{
+    width: 90%;
+    /* margin: 50px; */
+  }
+
   .bloglist{
    float: none;
    margin: 0 auto;
-
-  }
-  .blog{
-    width: 90%;
-    margin: 50px;
+   width: 100%;
   }
   .bloglist:nth-child(1){
     margin-top: 50px 0;
@@ -65,4 +66,8 @@ main{
     margin:20px auto;
   }
 
+  .image{
+    height: 110px;
+    object-fit: cover;
+    object-position: 50% 100%;
 }
